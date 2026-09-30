@@ -1,0 +1,46 @@
+.cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.cabecalho label {
+  font-weight: 600;
+  color: #333;
+}
+
+.pesquisa {
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.pesquisa:focus {
+  border-color: #1976d2;
+}
+
+.historico {
+  margin-top: 20px;
+}
+
+.tituloHistorico {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.tabela {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
